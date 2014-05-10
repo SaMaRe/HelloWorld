@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/Url"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp"
+        android:text="URL Link"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+	<EditText
+	    android:id="@+id/typeUrl"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentLeft="true"
+	    android:layout_below="@+id/Url"
+	    android:layout_marginTop="16dp"
+	    android:ems="10"
+	    android:text="Type News Url Link" />
+
+	 <Button
+	     android:id="@+id/btngo"
+	     android:layout_width="wrap_content"
+	     android:layout_height="wrap_content"
+	     android:layout_alignParentRight="true"
+	     android:layout_below="@+id/typeUrl"
+	     android:layout_marginRight="22dp"
+	     android:layout_marginTop="24dp"
+	     android:text="go" />
+
+	  <TextView
+	      android:id="@+id/txtmsg"
+	      android:layout_width="fill_parent"
+	      android:layout_height="wrap_content"
+	      android:layout_below="@+id/btngo"
+	      android:layout_alignParentLeft="true"
+	      android:layout_centerVertical="true" />
+	      
+</RelativeLayout>
